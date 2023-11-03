@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/matteo_dal_maso/static/css/main.190c8f58.css",
+    "main.css": "/matteo_dal_maso/static/css/main.573f246c.css",
     "main.js": "/matteo_dal_maso/static/js/main.501888b5.js",
     "static/js/787.277c460b.chunk.js": "/matteo_dal_maso/static/js/787.277c460b.chunk.js",
     "static/media/Homepage.jpg": "/matteo_dal_maso/static/media/Homepage.cb8a0c40d030853874cd.jpg",
@@ -18,12 +18,12 @@
     "static/media/Contact.jpg": "/matteo_dal_maso/static/media/Contact.f3b0f2b6fec45aacbdb8.jpg",
     "static/media/gallery7.jpg": "/matteo_dal_maso/static/media/gallery7.f3b0f2b6fec45aacbdb8.jpg",
     "index.html": "/matteo_dal_maso/index.html",
-    "main.190c8f58.css.map": "/matteo_dal_maso/static/css/main.190c8f58.css.map",
+    "main.573f246c.css.map": "/matteo_dal_maso/static/css/main.573f246c.css.map",
     "main.501888b5.js.map": "/matteo_dal_maso/static/js/main.501888b5.js.map",
     "787.277c460b.chunk.js.map": "/matteo_dal_maso/static/js/787.277c460b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.190c8f58.css",
+    "static/css/main.573f246c.css",
     "static/js/main.501888b5.js"
   ]
 }
