@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/matteo_dal_maso/static/css/main.190c8f58.css",
+    "main.js": "/matteo_dal_maso/static/js/main.501888b5.js",
+    "static/js/787.277c460b.chunk.js": "/matteo_dal_maso/static/js/787.277c460b.chunk.js",
+    "static/media/Homepage.jpg": "/matteo_dal_maso/static/media/Homepage.cb8a0c40d030853874cd.jpg",
+    "static/media/gallery11.jpg": "/matteo_dal_maso/static/media/gallery11.56a059c84a5e0297c22e.jpg",
+    "static/media/gallery10.jpg": "/matteo_dal_maso/static/media/gallery10.2da1b1e541ace066a08b.jpg",
+    "static/media/gallery4.jpg": "/matteo_dal_maso/static/media/gallery4.ca0fd00604ab006380b6.jpg",
+    "static/media/gallery3.jpg": "/matteo_dal_maso/static/media/gallery3.e5fdbaa601c900c5ae16.jpg",
+    "static/media/gallery2.jpg": "/matteo_dal_maso/static/media/gallery2.e9053211d38d7928bfed.jpg",
+    "static/media/gallery9.jpg": "/matteo_dal_maso/static/media/gallery9.770145ae22521d50e53e.jpg",
+    "static/media/About.jpg": "/matteo_dal_maso/static/media/About.86c3d731b58176fc7add.jpg",
+    "static/media/gallery5.jpg": "/matteo_dal_maso/static/media/gallery5.65deae60ff802d53868b.jpg",
+    "static/media/gallery6.jpg": "/matteo_dal_maso/static/media/gallery6.956ac8307b3ae749b701.jpg",
+    "static/media/gallery8.jpg": "/matteo_dal_maso/static/media/gallery8.5b46f3e7d812b7ce2aef.jpg",
+    "static/media/gallery1.jpg": "/matteo_dal_maso/static/media/gallery1.6b9e3e976a7ff8b60b61.jpg",
+    "static/media/Contact.jpg": "/matteo_dal_maso/static/media/Contact.f3b0f2b6fec45aacbdb8.jpg",
+    "static/media/gallery7.jpg": "/matteo_dal_maso/static/media/gallery7.f3b0f2b6fec45aacbdb8.jpg",
+    "index.html": "/matteo_dal_maso/index.html",
+    "main.190c8f58.css.map": "/matteo_dal_maso/static/css/main.190c8f58.css.map",
+    "main.501888b5.js.map": "/matteo_dal_maso/static/js/main.501888b5.js.map",
+    "787.277c460b.chunk.js.map": "/matteo_dal_maso/static/js/787.277c460b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.190c8f58.css",
+    "static/js/main.501888b5.js"
+  ]
+}
