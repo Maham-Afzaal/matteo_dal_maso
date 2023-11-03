@@ -1,14 +1,9 @@
 import React from "react";
 import FormControl from "@mui/material/FormControl";
-import InputLabel from "@mui/material/InputLabel";
-import Input from "@mui/material/Input";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
-import FormHelperText from "@mui/material/FormHelperText";
 import { TextField, Typography } from "@mui/material";
 import { useState } from "react";
-import { Label } from "@mui/icons-material";
-import clsx from "clsx";
 import LayoutHome from "../LayoutHome";
 const Contact = () => {
   // const styles = {
@@ -44,12 +39,6 @@ const Contact = () => {
 
   const handleMessageChange = (event) => {
     setInputMessage(event.target.value); // Update the input value in state
-  };
-
-  const handleSubmit = () => {
-    // You can save the inputValue or perform any other actions here
-    console.log("Input Value:", inputValue);
-    console.log("Input Value:", inputMessage);
   };
 
   const styles = {

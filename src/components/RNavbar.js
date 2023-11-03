@@ -3,22 +3,10 @@ import { AppBar,Button,IconButton,Toolbar, Typography } from '@mui/material';
 import Box from '@mui/material/Box';
 import './styling.css';
 import MenuIcon from '@mui/icons-material/Menu';
-import clsx from 'clsx';
-import { useMediaQuery,useTheme } from '@mui/material';
 import { Link } from 'react-router-dom';
 
-const boxColumn={
-    display:'flex',
-    flexDirection:'column',
-    position:'absolute',
-    width: '100%',
-    top:'3.6rem',
-    backgroundColor:'black',
-    left:'0',
-}
 
 const RNavbar = () => {
-    const theme=useTheme();
     const [click,setClick]=useState(false);
     const handleClick=()=>{
         setClick(!click);

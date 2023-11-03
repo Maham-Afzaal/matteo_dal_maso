@@ -1,6 +1,5 @@
 import React from "react";
 import useMediaQuery from "@mui/material/useMediaQuery";
-import { Box } from "@mui/material";
 import LayoutHome from "../LayoutHome";
 
 const Schedule = () => {

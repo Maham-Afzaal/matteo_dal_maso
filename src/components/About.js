@@ -1,24 +1,9 @@
 import { Box } from '@mui/material'
 import React from 'react'
-import clsx from 'clsx';
 import './styling.css';
 import about from './Images/About.jpg';
-import FacebookIcon from "@mui/icons-material/Facebook";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import TwitterIcon from "@mui/icons-material/Twitter";
-import YouTubeIcon from "@mui/icons-material/YouTube";
-import Typography from '@mui/material/Typography';
 import LayoutHome from '../LayoutHome';
 const About = () => {
-  const iconStyles = {
-    backgroundColor: "white",
-    borderRadius: "50%",
-    padding: "8px", // Adjust as needed
-    display: "inline-flex",
-    justifyContent: "center",
-    alignItems: "center",
-    margin:1,
-  };
   return (
     <LayoutHome>
         <Box sx={{
@@ -45,27 +30,6 @@ const About = () => {
                 </Box>
             </Box>
         </Box>
-        {/* <Box sx={{p:'1rem',display: 'flex', justifyContent: 'center',}}>
-          <Box>
-            <Box sx={iconStyles}>
-              <FacebookIcon />
-            </Box>
-            <Box sx={iconStyles}>
-              <InstagramIcon />
-            </Box>
-            <Box sx={iconStyles}>
-              <TwitterIcon />
-            </Box>
-            <Box sx={iconStyles}>
-              <YouTubeIcon />
-            </Box>
-          </Box>
-        </Box>
-        <Box className='boxCopyright'>
-        <Typography variant="subtitle2" className={clsx("text-white")}>
-            @2022MahamAfzaal
-        </Typography>
-      </Box> */}
 
     </LayoutHome>
   )

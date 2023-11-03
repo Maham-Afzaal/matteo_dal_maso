@@ -1,5 +1,4 @@
 import React from "react";
-import { ImageList, ImageListItem, Grid, Container } from "@mui/material";
 import gallery1 from "../Images/gallery1.jpg";
 import gallery2 from "../Images/gallery2.jpg";
 import gallery3 from "../Images/gallery3.jpg";
@@ -72,14 +71,7 @@ const itemData = [
     description: "Ph. Eliseo Arcifà",
   },
 ];
-const listStyles = {
-  columnCount: 4,
-  columnGap: 6,
-  rowGap: 7,
-  '@media (max-width: 600px)': {
-    backgroundColor:'yellow',
-  }
-};
+
 
 
 const MyImageList = () => {

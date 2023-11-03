@@ -1,11 +1,5 @@
 import React from "react";
 import {
-  ImageList,
-  ImageListItem,
-  Grid,
-  Paper,
-  Container,
-  Card,
   Box,
 } from "@mui/material";
 import gallery1 from "../Images/gallery1.jpg";
@@ -19,66 +13,6 @@ import gallery8 from "../Images/gallery8.jpg";
 import gallery9 from "../Images/gallery9.jpg";
 import gallery10 from "../Images/gallery10.jpg";
 import gallery11 from "../Images/gallery11.jpg";
-import { WidthFull } from "@mui/icons-material";
-const itemData = [
-  {
-    img: gallery1,
-    caption: "New Sinfonia",
-    description: "Stephen Cain Photography",
-  },
-  {
-    img: gallery2,
-    caption: "New Sinfonia",
-    description: "Stephen Cain Photography",
-    cols: 1,
-    rows: 0.5, // Half-height item
-  },
-  {
-    img: gallery3,
-    caption: "Orchestra di Padova e del Veneto",
-    description: "Ph. Eliseo Arcifà",
-  },
-  {
-    img: gallery4,
-    caption: "Orchestra di Padova e del Veneto",
-    description: "Ph. Eliseo Arcifà",
-  },
-  {
-    img: gallery5,
-    caption: "Orchestra di Padova e del Veneto",
-    description: "Ph. Eliseo Arcifà",
-  },
-  {
-    img: gallery6,
-    caption: "Orchestra di Padova e del Veneto",
-    description: "Ph. Eliseo Arcifà",
-  },
-  {
-    img: gallery7,
-    caption: "Orchestra di Padova e del Veneto",
-    description: "Ph. Eliseo Arcifà",
-  },
-  {
-    img: gallery8,
-    caption: "Orchestra di Padova e del Veneto",
-    description: "Ph. Eliseo Arcifà",
-  },
-  {
-    img: gallery9,
-    caption: "Orchestra di Padova e del Veneto",
-    description: "Ph. Eliseo Arcifà",
-  },
-  {
-    img: gallery10,
-    caption: "Orchestra di Padova e del Veneto",
-    description: "Ph. Eliseo Arcifà",
-  },
-  {
-    img: gallery11,
-    caption: "Orchestra di Padova e del Veneto",
-    description: "Ph. Eliseo Arcifà",
-  },
-];
 const ImageBlackBox = () => {
   return (
     <Box className="row">

@@ -1,8 +1,5 @@
 import React from "react";
 import {
-  Grid,
-  Paper,
-  Typography,
   ImageList,
   ImageListItem,
 } from "@mui/material";
@@ -78,51 +75,7 @@ const itemData = [
     img: gallery11,
     caption: "Image 2",
   },
-  // Add more images
 ];
-// const images = [
-//   {
-//     src: gallery1,
-//     caption: 'Image 1',
-//   },
-//   {
-//     src: gallery2,
-//     caption: 'Image 2',
-//   },
-//   {
-//     src: gallery3,
-//     caption: 'Image 1',
-//   },
-//   {
-//     src: gallery4,
-//     caption: 'Image 2',
-//   },
-//   {
-//     src: gallery5,
-//     caption: 'Image 1',
-//   },
-//   {
-//     src: gallery6,
-//     caption: 'Image 2',
-//   },
-//   {
-//     src: gallery7,
-//     caption: 'Image 1',
-//   },
-//   {
-//     src: gallery8,
-//     caption: 'Image 2',
-//   },
-//   {
-//     src: gallery9,
-//     caption: 'Image 2',
-//   },
-//   {
-//     src: gallery11,
-//     caption: 'Image 2',
-//   },
-//   // Add more images
-// ];
 
 const image = {
   position: "relative",
@@ -161,20 +114,6 @@ function srcset(image, size, rows = 1, cols = 1) {
 
 const ImageGallery = () => {
   return (
-    // <Grid container spacing={3}>
-    //   {images.map((image, index) => (
-    //     <Grid item xs={12} sm={6} md={3} key={index}>
-    //       <Paper className={image}>
-    //         <img src={image.src} alt={image.caption} style={{ width: '100%' }} />
-    //         <div className={overlay}>
-    //           <Typography variant="h6" className={imageCaption}>
-    //             {image.caption}
-    //           </Typography>
-    //         </div>
-    //       </Paper>
-    //     </Grid>
-    //   ))}
-    // </Grid>
     <div style={{padding:'24px'}}>
       <ImageList
         variant="quilted"
